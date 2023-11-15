@@ -90,7 +90,7 @@ nav {
 
 .first-sec {
   width: 100%;
-  margin: 10% 15vh;
+  margin: 10%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -106,9 +106,9 @@ nav {
 }
 
 .home-right img {
-  height: 45vh;
-  width: 45vh;
-  padding: 1vh;
+  height: 25rem;
+  width: 25rem;
+  padding: 1rem;
   border: 2px solid white;
   border-radius: 50%;
 }
@@ -116,7 +116,7 @@ nav {
 /* -----about----- */
 
 .container {
-  margin: 20vh 10vh;
+  margin: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -182,10 +182,6 @@ nav {
   display: flex;
   gap: 6vh;
   margin-top: 8vh;
-  /* flex-wrap: wrap; */
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-gap: 6vh; */
 }
 
 .project {
@@ -236,7 +232,7 @@ nav {
   color: white;
   font-size: 3.5vh;
   font-weight: bold;
-  margin: 10vh auto;
+  margin: 5rem auto;
   border: 1px solid var(--pink);
   padding: 2vh 5vh;
   border-radius: 1vh;
@@ -317,7 +313,7 @@ textarea {
 }
 
 .copyright {
-  width: 100vw;
+  width: 100%;
   text-align: center;
   padding: 2vh 0;
   font-size: 3vh;
@@ -327,18 +323,13 @@ textarea {
 
 /* -----media-queries----- */
 
-@media screen and (max-width: 1600px) {
-  .contact-box {
-    gap: 10vh;
-  }
-}
-
 @media screen and (max-width: 1200px) {
   .contact-box {
     flex-wrap: wrap;
   }
   .projects-list {
     flex-wrap: wrap;
+    justify-content: center;
   }
 }
 
@@ -351,11 +342,11 @@ textarea {
     z-index: 2;
     flex-direction: column;
     height: 70vh;
-    width: 25vh;
+    width: 25%;
     position: fixed;
     background-color: var(--pink);
     top: 0;
-    right: -40vh;
+    right: -25%;
     padding-top: 7vh;
     transition: right 0.5s;
   }
@@ -384,8 +375,3 @@ textarea {
     width: 100%;
   }
 }
-
-/* footer {
-  border: 1px solid red;
-  max-width: 100vw;
-} */
