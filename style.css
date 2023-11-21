@@ -42,8 +42,8 @@ section {
 
 .nav-left h2 {
   display: flex;
-  font-size: 5vh;
-  padding: 0 5vw;
+  font-size: 2.5rem;
+  padding: 0 2rem;
 }
 
 .nav-right {
@@ -51,8 +51,8 @@ section {
 }
 
 .nav-right a {
-  margin: 0 2vw;
-  font-size: 2.5vh;
+  margin: 0 2rem;
+  font-size: 1.5rem;
   color: white;
   text-decoration: none;
   position: relative;
@@ -77,8 +77,8 @@ section {
 .navbar .menu-icon {
   display: none;
   color: white;
-  font-size: 2.5vh;
-  padding: 0 2vh;
+  font-size: 1.5rem;
+  padding: 0 2rem;
   cursor: pointer;
 }
 
@@ -90,14 +90,14 @@ section {
 
 .first-sec {
   width: 100%;
-  margin: 10%;
+  margin: 10% 0;
   display: flex;
   justify-content: space-evenly;
 }
 
 .home-left {
-  font-size: 6vh;
-  padding-top: 5vh;
+  font-size: 3rem;
+  padding-top: 3rem;
 }
 
 .pink,
@@ -123,13 +123,13 @@ section {
 }
 
 .title {
-  font-size: 9vh;
+  font-size: 4.5rem;
   font-weight: bold;
 }
 
 .info-box p {
-  margin-top: 2vh;
-  font-size: 2.8vh;
+  margin-top: 2rem;
+  font-size: 1.3rem;
 }
 
 .tab-titles {
@@ -137,8 +137,8 @@ section {
 }
 
 .tab {
-  font-size: 4vh;
-  margin: 5vh;
+  font-size: 1.8rem;
+  margin: 2rem;
   margin-left: 0;
   cursor: pointer;
   position: relative;
