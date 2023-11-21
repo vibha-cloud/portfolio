@@ -106,12 +106,14 @@ section {
 }
 
 .home-right {
-  padding-left: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-right img {
-  height: 23rem;
-  width: 23rem;
+  height: 20rem;
+  width: 20rem;
   padding: 0.3rem;
   border: 2px solid white;
   border-radius: 50%;
@@ -300,6 +302,7 @@ section {
 
 .contact-right form {
   width: 100%;
+  margin-left: 1.5rem;
 }
 
 .contact-right form input,
@@ -340,6 +343,9 @@ textarea {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .contact-right form {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -368,12 +374,10 @@ textarea {
   }
   .first-sec {
     flex-direction: column;
-    gap: 5rem;
+    gap: 2rem;
   }
   .home-left {
-    font-size: 3.3rem;
-    /* padding-top: 5rem; */
-    height: 68vh;
+    font-size: 3.2rem;
   }
 }
 
