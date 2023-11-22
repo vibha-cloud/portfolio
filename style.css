@@ -389,7 +389,7 @@ textarea {
 
 @media screen and (max-width: 550px) {
   .navbar .menu-icon {
-    padding: 0 1vh;
+    padding: 0 2rem;
   }
   section {
     width: 100%;
